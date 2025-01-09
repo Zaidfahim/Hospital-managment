@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url("back_menu.jpg") no-repeat;
+	background-size: cover;
+  font-family: 𝕻𝖗𝖊𝖛𝖎𝖊𝖜 𝕿𝖊𝖝𝖙;
+
+}
+header h2{
+  position: absolute;
+  margin-top: 20px;
+  left: 42%;
+}
+header{
+  height: 10vh;
+  background-color: lightblue;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+
+}
+.container{
+  text-align: center;
+  margin-top: 230px;
+
+}
+.btn{
+  border: 1px solid gainsboro;
+  background: none;
+  padding: 10px 20px;
+  font-size: 21px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1,.btn2,.btn3,.btn5,.btn4,.btnlog {
+  color: black;
+  background: rgba(220, 220, 220, 0.425);
+}
+
+.btn1:hover,.btn2:hover,.btn3:hover, .btn5:hover,.btn4:hover, .btnlog:hover{
+  background: #92caf0da ;
+
+}
+.btnlog{
+  border: 1px solid gainsboro;
+  background: gainsboro;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s;
+  position: absolute;
+  top:0px;
+  right:0px;
+  overflow: hidden;
+}
